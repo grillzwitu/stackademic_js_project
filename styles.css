@@ -1,0 +1,70 @@
+body {
+    background-image: url("./res/abstract\ background\ 0407.jpg");
+    background-color: #181106;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    color: white;
+    text-align:center;
+}
+
+header {
+    display: flex;
+    align-self: center;
+}
+
+#status {
+    font-size: 1em;
+    font-weight: bolder;
+    font-style: italic;
+    color: rgb(235, 199, 151);
+    text-shadow: 2px 2px 4px black;
+}
+
+#hidden {
+    visibility: hidden;
+    display: flex;
+    align-self: center;
+}
+
+h1 {
+    font-family: 'Monospace', 'sans-serif';
+    font-weight: 100;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+#seconds{
+    font-size: 3em;
+}
+#tens{
+  font-size:2em;
+}
+
+button{
+    border-radius: 20px;
+    background: #6591e2;
+    color: #fff;
+    border: solid 3px #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 15px 10px;
+    width: 120px;
+    margin: 10px;
+    outline: none;
+    box-shadow: 0 0px 15px 0 bisque;
+}
+
+button:hover {
+    transition: all 0.5s ease-in-out;
+    background: #fff;
+    border: solid 1px #fff;
+    color: #00aeff;
+}
